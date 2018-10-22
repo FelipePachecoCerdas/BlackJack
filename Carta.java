@@ -17,6 +17,10 @@ public class Carta {
     valor = pValor;
   }
   
+  public String getName() {
+    return valor + figura;
+  }
+  
   public String toString() {
     return figura + " " + valor;
   }

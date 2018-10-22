@@ -17,8 +17,8 @@ public class Juego {
   
   public Juego() {
     baraja = new ArrayList<>();
-    String figuras[] = {"Trébol","Corazón","Pica","Diamante"};
-    String valores[] = {"A","1","2","3","4","5","6","7","8","9","10","J","Q","K"};
+    String figuras[] = {"Trébol","Corazón","Espada","Diamante"};
+    String valores[] = {"A","2","3","4","5","6","7","8","9","10","J","Q","K"};
     for (String figura: figuras) {
       for (String valor: valores) {
         baraja.add(new Carta(figura,valor));
@@ -27,6 +27,10 @@ public class Juego {
     for (Carta carta: baraja) {
       System.out.println(carta.toString());
     }
+  }
+  
+  public ArrayList<Carta> getBaraja() {
+    return baraja;
   }
   
   public static void main(String[] args) {
