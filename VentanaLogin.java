@@ -49,16 +49,22 @@ public class VentanaLogin extends javax.swing.JFrame {
       }
     });
   }
-
+  /*
+  * Le muestra un mensae de error por lo que hay dos Jugadores con el mismo nombre
+  */
   public void notificarNombreRepetido() {
     showMessageDialog(null, "El nombre indicado ya ha sido escogido. Intentelo de nuevo.");
     nombreObtenido = "";
   }
-
+  /*
+  * Da el nombre del jugador
+  */
   public String getNombreObtenido() {
     return nombreObtenido;
   }
-  
+  /*
+  *Da un booleano si esta abierta
+  */
   public boolean isAbierta() {
     return abierta;
   }
