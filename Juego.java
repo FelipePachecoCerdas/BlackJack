@@ -13,15 +13,15 @@ import java.util.Random;
  */
 public class Juego {
 
-  ArrayList<Carta> baraja;
-  ArrayList<Jugador> jugadores;
-  String ganador;
-  int indiceJugadorActual;
-  int cantidadPerdidos;
-  int cantidadPeticiones;
-  boolean acabado;
-  boolean iniciado;
-  Random random;
+  private ArrayList<Carta> baraja;
+  private ArrayList<Jugador> jugadores;
+  private String ganador;
+  private int indiceJugadorActual;
+  private int cantidadPerdidos;
+  private int cantidadPeticiones;
+  private boolean acabado;
+  private boolean iniciado;
+  private Random random;
 
   /**
    * Constructor de un juego, inicializa todos los atributos en 0, false, un
