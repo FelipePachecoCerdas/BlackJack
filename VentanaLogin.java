@@ -18,8 +18,8 @@ public class VentanaLogin extends javax.swing.JFrame {
   /**
    * Creates new form VentanaLogin
    */
-  String nombreObtenido;
-  boolean abierta;
+  private String nombreObtenido;
+  private boolean abierta;
 
   public VentanaLogin() {
 
