@@ -22,17 +22,18 @@ import static javax.swing.JOptionPane.showMessageDialog;
  */
 /**
  *
- * @author felip
+ * @author Kendall Tenorio Chevez
+ * @author Felipe Pacheco Cerdas
  */
 public class VentanaJuego extends javax.swing.JFrame {
 
-  int i = 0;
-  boolean abierta;
-  Juego juego;
-  JLabel cartas[];
-  JLabel cartasJugador2[];
-  JLabel cartasJugador3[];
-  String peticion;
+  private int i = 0;
+  private boolean abierta;
+  private Juego juego;
+  private JLabel cartas[];
+  private JLabel cartasJugador2[];
+  private JLabel cartasJugador3[];
+  private String peticion;
 
   /**
    * Creates new form VentanaJuego
