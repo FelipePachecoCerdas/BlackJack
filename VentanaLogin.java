@@ -11,7 +11,8 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 /**
  * 
- * @author felip
+ * @author Felipe Pacheco Cerdas
+ * @author Kendall Tenorio Chevez
  */
 public class VentanaLogin extends javax.swing.JFrame {
 
