@@ -8,7 +8,8 @@ import java.util.ArrayList;
  */
 /**
  *
- * @author felip
+ * @author Felipe Pacheco Cerdas
+ * @author Kendall Tenorio Chevez
  */
 public class Jugador {
 
@@ -59,7 +60,9 @@ public class Jugador {
   public String getNombre() {
     return nombre;
   }
-
+  /*
+  * @return suma todas las cartas que tiene en la mano
+  */
   public int sumarCartas() {
     int suma = 0;
     for (Carta carta : cartas) {
